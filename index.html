@@ -17,119 +17,15 @@
 
     </head>
 
-    <body>
-        </SCRIPT>
-        <FORM NAME="form1">
-        <SELECT NAME="select" ONCHANGE="goto(this.form)" SIZE="1">
-            <OPTION VALUE="">-------Choose a Selection-------
-            <OPTION VALUE="index.htm">Home
-            <OPTION VALUE="web_development.htm">Web Development
-            <OPTION VALUE="html_codes.htm">HTML Tips
-            <OPTION VALUE="html_codes_chart.htm">HTML Code Chart
-            <OPTION VALUE="javascript_codes.htm">JavaScript Codes
-            <OPTION VALUE="216_color_chart.htm">Color Code Chart</SELECT>
-        </FORM>
-                        <select name="links" id="dropdown" onChange="SelectRedirect();"> 
-                            <option value="https://google.com">Home Page</option>
-                            <option value="https://google.com">Resume Page</option>  
-                            <option value="https://google.com">Projects Page</option>
-                            <option value="https://google.com">Blog Page</option>
-                        </select><br>
-        <div id="h_id">
-            <div class="g_class" id ="g_head">
-                <div class="first" id="head">
-                    <br><br>
-                    <h2>John Doe</h2>
-                    <h2>What I do goes here </h2>
-                    <h6>Address goes here</h6>
-                </div>
-                
-                <div class="u_class">
-                    <div class="contact_class">
-                        <select name="links" id="dropdown"> 
-                            <option value="https://google.com">Home Page</option>
-                            <option value="https://google.com">Resume Page</option>  
-                            <option value="https://google.com">Projects Page</option>
-                            <option value="https://google.com">Blog Page</option>
-                        </select><br>
-                        <h3><a id="pdf" href="my_resume.pdf" target="_blank">Download Resume</a></h3>
-                        <h3><a id="email" href="mailto:aethom@umich.edu">aethom@umich.edu</a></h3>
-                        <h3>(231) - 492-8156</h3>
-                    </div>
-                </div> 
-            </div>
-        </div>
+   <body>
+        <SELECT id="s1" NAME="section" onChange="SelectRedirect();">
+            <Option value="https://google.com">Select Section</option>
+            <Option value="https://yahoo.com">PHP</option>
+            <Option value="https://msn.com">ASP</option>
+            <Option value="https://github.com">MySQL</option>
+            <Option value="https://youtube.com">JavaScript</option>
+            <Option value="https://plus2net.com">HTML</option>
+        </SELECT>
 
-        <div class="largest_c" style="margin-top: 180px;">
-
-            <section class="preview">
-                <header class="main_photo">
-                    <h1></h1>
-                    <p>jadjsjajsdsanadnasdnndnadnadssadnnsadnkdakds</p>
-                    <a href="#" class="quicklink"></a>
-                </header>
-                <div class="boxed box_1">
-                    <h4>AI-Powered Euchre Project</h4><br>
-                    <img src="../images/euchre.jpeg" alt="image of someone holding cards">
-                    <br><a href="" class="quicklink">Learn More</a>
-                </div>
-                <div class="boxed box_2">
-                    <h4>Image Resizing & Computer Vision Project</h4><br>
-                    <img src="../images/side_code.jpeg" alt="image of code">
-                    <br><a href="" class="quicklink">Learn More</a>
-                </div>
-            </section>
-
-            <div class="titled">
-                <h1>Computer Science Style Courses I've taken:</h1>
-            </div>
-
-            <section class="class_grid" style="margin-top:6px;">
-                <div class="textbox">
-                    <i class="IOE_373"></i>
-                    <h3>IOE 373</h3>
-                    <p>Introduction to the computing tools necessary for data, business, and engineering analytics. Emphasis on data cleansing, manipulation, and preparation for visualization, as well as basic inferential statistical analyses and predictive analytics using Python.</p>
-                </div>
-                <div class="textbox">
-                    <i class="EECS_280"></i>
-                    <h3>EECS 280</h3>
-                    <p>Algorithm development and effective programming, top-down analysis, structured programming, testing and program correctness. Program language syntax and static and runtime semantics. Scope, procedure instantiation, recursion, abstract data types and parameter passing methods. Structured data types, pointers, linked data structures, stacks, queues, arrays, records and trees.</p>
-                </div>
-                <div class="textbox">
-                    <i class="EECS_203"></i>
-                    <h3>EECS 203</h3>
-                    <p>Introduction to the mathematical foundations of computer science. Topics covered include: propositional and predicate logic, set theory, function and relations, growth of functions and asymptotic notation, introduction to algorithms, elementary combinatorics and graph theory and discrete probability theory.</p>
-                </div>
-                <div class="textbox">
-                    <i class="SI_339"></i>
-                    <h3>SI 339</h3>
-                    <p>This course provides a hands-on approach to learning responsive, accessible front-end programming for Web Design. Topics covered include HTML5, CSS3 (including Bootstrap framework), JavaScript, and the POUR design principles of accessible design.</p>
-                </div>
-            </section>
-
-            <!-- NEED TO ADD ALTS -->
-            <section class="gallery">
-                <img src="images/Dhruv.jpeg" alt="Photo of John and his friend Dhruv in the Shapiro Library">
-                <img src="images/Iceland_spa.jpeg" alt="Photo of JOhn and his friend Max at the Blue Lagoon">
-                <img src="images/Iguana.jpeg" alt="Photo of John and an Iguana in Puerto Rico">
-                <img src="images/Ronnoc.jpeg" alt="Photo of John and his friend Connor in Sint Maarten">
-                <img src="images/Sint_Maarten.jpeg" alt="Photot of John at the top of a french base in Sint Maarten">
-                <img src="images/Iceland_park.jpg" alt="Photo of John at Þingvellir National Park">
-            </section>
-
-            <section class="socials_box">
-                <h1 style="width:200%;font-size:250%;margin-bottom: 0px;">My Socials</h1>
-                <div id="socials"></div>
-                    <a class="btn btn-icon btn-facebook" href="https://www.facebook.com/John.thomas.125760"><i class="fa fa-facebook"></i><span>Facebook</span></a>
-                    <a class="btn btn-icon btn-linkedin" href="https://www.linkedin.com/in/John-thomas-129272201/"><i class="fa fa-linkedin"></i><span>LinkedIn</span></a>
-                    <a class="btn btn-icon btn-instagram" href="https://www.instagram.com/John.thomas_/"><i class="fa fa-instagram"></i><span>Instagram</span></a>
-                    <a class="btn btn-icon btn-handshake" href="https://app.joinhandshake.com/stu/users/38160180"><i class="fa fa-handshake"></i><span>Handshake</span></a>
-                </div>
-            </section>
-        </div>
     </body>
-
-    <footer>
-        <p>Ashton Thomas &mdash; <a id="email2" href="mailto:aethom@umich.edu">aethom@umich.edu</a> &mdash; (231) - 492-8156</p>
-    </footer>
 </html>
