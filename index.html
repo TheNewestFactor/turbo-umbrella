@@ -1,31 +1,51 @@
+<html>
+<head>
+<title>Demo of page redirection after selection of a drop down listbox menu</title>
+<script language="javascript">
+function SelectRedirect(){
+// ON selection of section this function will work
+//alert( document.getElementById('s1').value);
 
-<!DOCTYPE html>
-<html lang="en">
-    <head>
+switch(document.getElementById('s1').value)
+{
+case "PHP":
+window.location="../php_tutorial/site_map.php";
+break;
 
-        <title>John Doe | College Student, Programmer | aethom@umich.edu</title>
-        <meta https-equiv="content-type" content="text/html; charset=utf-8" />
+case "ASP":
+window.location="../asp-tutorial/site_map.php";
+break;
 
-        <meta name="keywords" content="" />
-        <meta name="description" content="" />
+case "MySQL":
+window.location="../sql_tutorial/site_map.php";
+break;
+case "JS":
+window.location="site_map.php";
+break;
 
-        <link rel="stylesheet" type="text/css" href="css/yreset.css" media="all" />
-        <link rel="stylesheet" type="text/css" href="css/resume.css" media="all" />
-        <link rel="stylesheet" type="text/css" href="css/index2.css" media="all" />
+case "HTML":
+window.location="../html_tutorial/site_map.php";
+break;
 
-        <script src="js/resume.js"></script>
+/// Can be extended to other different selections of SubCategory //////
+default:
+window.location="../"; // if no selection matches then redirected to home page
+break;
+}// end of switch 
+}
+////////////////// 
+</script>
+</head>
+<body>
 
-    </head>
+<SELECT id="s1" NAME="section" onChange="SelectRedirect();">
+<Option value="">Select Section</option>
+<Option value="PHP">PHP</option>
+<Option value="ASP">ASP</option>
+<Option value="MySQL">MySQL</option>
+<Option value="JS">JavaScript</option>
+<Option value="HTML">HTML</option>
+</SELECT>
 
-   <body>
-        <SELECT id="s1" NAME="section" onChange="SelectRedirect();">
-            <Option value="https://google.com">Select Section</option>
-            <Option value="https://yahoo.com">PHP</option>
-            <Option value="https://msn.com">ASP</option>
-            <Option value="https://github.com">MySQL</option>
-            <Option value="https://youtube.com">JavaScript</option>
-            <Option value="https://plus2net.com">HTML</option>
-        </SELECT>
-
-    </body>
+</body>
 </html>
