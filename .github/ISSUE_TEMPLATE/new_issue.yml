@@ -2,7 +2,7 @@ name: Bug Report
 description: File a bug report
 title: "[Bug]: "
 labels: "bug"
-project: "Umbrella Academy"
+projects: "Umbrella Academy"
 assignees:
   - OptimisticImpulse
 body:
