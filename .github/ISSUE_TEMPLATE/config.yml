@@ -1,4 +1,8 @@
 blank_issues_enabled: false
+project: Umbrella Academy
+projects: Umbrella Academy
+project: "Umbrella Academy"
+projects: "Umbrella Academy"
 contact_links:
   - name: GitHub Community Support
     url: https://github.com/orgs/community/discussions
